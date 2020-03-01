@@ -18,7 +18,7 @@ export const InnerPageContainer = styled.main`
   flex: 1 0 auto;
   width: 100%;
   padding: 0 16px;
-  padding-top: 120px;
+  padding-top: 200px;
   padding-bottom: 128px;
   @media (max-width: 768px) {
     max-width: 100%;

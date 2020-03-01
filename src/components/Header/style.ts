@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { A } from "../Typography"
 
 export const HeaderContainer = styled.header`
   display: flex;
@@ -31,4 +32,20 @@ export const HeaderContent = styled.div`
 export const NavigationContent = styled.div`
   display: flex;
   flex-grow: 1;
+`
+
+export const NavigationLinkContainer = styled.div`
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+`
+
+export const NavigationLink = styled(A)`
+  color: #d9e2ec;
+  margin: 0 30px;
+
+  :hover {
+    color: #fff;
+  }
 `
