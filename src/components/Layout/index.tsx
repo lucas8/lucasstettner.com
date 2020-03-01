@@ -12,6 +12,7 @@ export default ({ children }: LayoutProps) => (
   <Fragment>
     <Helmet>
       <title>Lucas Stettner</title>
+      <link rel="stylesheet" type="text/css" href="https://rsms.me/inter/inter.css" />
     </Helmet>
     <GlobalStyles />
     <PageContainer>

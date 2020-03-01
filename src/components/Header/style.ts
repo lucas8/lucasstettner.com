@@ -1,17 +1,18 @@
 import styled from "styled-components"
 import { A } from "../Typography"
 
-export const HeaderContainer = styled.header`
+export const HeaderContainer = styled.header<{ hasScrolled: boolean }>`
   display: flex;
   flex-direction: column;
-  background-color: rgba(22, 22, 26, 0.7);
+  background-color: ${({ hasScrolled }) => (hasScrolled ? `rgba(22, 22, 26, 0.7)` : `transparent`)};
   position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
-  backdrop-filter: blur(5px);
+  transition: all ease 250ms;
+  backdrop-filter: ${({ hasScrolled }) => (hasScrolled ? `blur(5px)` : `none`)};
   z-index: 2;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: ${({ hasScrolled }) => (hasScrolled ? `1px solid rgba(255, 255, 255, 0.1)` : `none`)};
   transition: border-bottom 150ms ease 0s, top 250ms ease 0s, background-color 300ms ease 0s;
 `
 

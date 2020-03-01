@@ -1,8 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyles = createGlobalStyle`
-  @import url('https://rsms.me/inter/inter.css');
-
   @supports (font-variation-settings: normal) {
     html { font-family: 'Inter var', sans-serif; }
   }
@@ -20,11 +18,13 @@ export const GlobalStyles = createGlobalStyle`
     -moz-appearance: none;
   }
   html {
+    scroll-behavior: smooth;
     display: flex;
     height: 100%;
     width: 100%;
     max-height: 100%;
     max-width: 100%;
+    line-height: 1.4;
     box-sizing: border-box;
     font-size: 18px;
     line-height: 1;
