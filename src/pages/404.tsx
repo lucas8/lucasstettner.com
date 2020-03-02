@@ -1,8 +1,9 @@
 import React from "react"
+import Layout from "../components/Layout"
+import { H1 } from "../components/Typography"
 
 export default () => (
-  <div>
-    <h1>You are here!</h1>
-    <h2>But nothing found for you #404</h2>
-  </div>
+  <Layout>
+    <H1>404: Nothing Found</H1>
+  </Layout>
 )

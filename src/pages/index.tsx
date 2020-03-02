@@ -16,6 +16,11 @@ const ProjectContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 `
 
 export default () => (
@@ -31,7 +36,13 @@ export default () => (
       </H2>
       <ProjectContainer>
         {projects.map((project, i) => (
-          <Project title={project.title} image={project.image} description={project.description} link={project.link} />
+          <Project
+            key={i}
+            title={project.title}
+            image={project.image}
+            description={project.description}
+            link={project.link}
+          />
         ))}
       </ProjectContainer>
     </HeroContainer>

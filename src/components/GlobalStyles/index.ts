@@ -28,7 +28,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     font-size: 18px;
     line-height: 1;
-    background: linear-gradient(180deg, #16161A 0%, #0D1D27 35%, #241E22 70%, #16161A 100%);
+    background: linear-gradient(180deg, #16161A 0%, #0D1D27 35%, #241E22 70%, #16161A 100%) no-repeat;
     background-color: #16161A;
     padding: 0;
     margin: 0;

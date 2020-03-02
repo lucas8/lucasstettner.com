@@ -40,6 +40,9 @@ export const NavigationLinkContainer = styled.div`
   display: flex;
   justify-content: center;
   padding-right: 30px;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const NavigationLink = styled(A)`

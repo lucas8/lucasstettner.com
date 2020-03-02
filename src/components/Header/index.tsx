@@ -26,7 +26,9 @@ export default () => {
   return (
     <HeaderContainer hasScrolled={!!scrollPos}>
       <HeaderContent>
-        <H1>{`<Lucas />`}</H1>
+        <a href="/">
+          <H1>{`<Lucas />`}</H1>
+        </a>
         <NavigationContent>
           <NavigationLinkContainer>
             <NavigationLink href="#projects">Projects</NavigationLink>
@@ -35,7 +37,9 @@ export default () => {
               Github
             </NavigationLink>
           </NavigationLinkContainer>
-          <A style={{ fontWeight: 600 }}>Contact Me</A>
+          <A style={{ fontWeight: 600, marginLeft: `auto` }} href="mailto:lucas.stettner@gmail.com">
+            Contact Me
+          </A>
         </NavigationContent>
       </HeaderContent>
     </HeaderContainer>

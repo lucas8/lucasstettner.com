@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet"
 import { PageContainer, InnerPageContainer } from "./style"
 import { GlobalStyles } from "../GlobalStyles"
 import Header from "../Header"
+import Footer from "../Footer"
 
 interface LayoutProps {
   children?: ReactNode
@@ -18,6 +19,7 @@ export default ({ children }: LayoutProps) => (
     <PageContainer>
       <Header />
       <InnerPageContainer>{children}</InnerPageContainer>
+      <Footer />
     </PageContainer>
   </Fragment>
 )
