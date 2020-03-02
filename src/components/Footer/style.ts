@@ -27,6 +27,7 @@ export const FooterContent = styled.div`
     flex-direction: column;
     padding: 30px;
     align-items: flex-start;
+    height: auto;
 
     span {
       margin-bottom: 20px;
