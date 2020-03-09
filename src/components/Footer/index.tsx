@@ -12,7 +12,7 @@ export default () => (
         <FooterItem href="https://devpost.com/lucasthebear" target="_blank" rel="noopener">
           Devpost
         </FooterItem>
-        <FooterItem>Resume</FooterItem>
+        <FooterItem href="/resume.pdf">Resume</FooterItem>
       </FooterNavigation>
     </FooterContent>
   </FooterContainer>

@@ -32,7 +32,7 @@ export default () => {
         <NavigationContent>
           <NavigationLinkContainer>
             <NavigationLink href="#projects">Projects</NavigationLink>
-            <NavigationLink>Resume</NavigationLink>
+            <NavigationLink href="/resume.pdf">Resume</NavigationLink>
             <NavigationLink href="https://github.com/lucas8" target="_blank" rel="noopener">
               Github
             </NavigationLink>
