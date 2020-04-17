@@ -29,7 +29,7 @@ export default () => (
       <Title>Lucas Stettner</Title>
       <P style={{ paddingTop: 24 }}>
         I’m a <a>fullstack developer & designer</a>, <a>student</a>, and <a>skateboarder</a>, living in New York City.
-        I’m currently building native mobile apps in <a>SwiftUI</a>.
+        I’m currently quarantining, and building <a>highly concurrent and scalable systems with elixir</a>.
       </P>
       <H2 style={{ marginTop: 128, marginBottom: 24 }} id="projects">
         Featured Projects
