@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-fathom`,
       options: {
-        siteId: `XUERLOZP`,
+        siteId: `LGLTYWMS`,
       },
     },
   ],
