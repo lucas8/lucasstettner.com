@@ -13,9 +13,9 @@ const projects: ProjectProps[] = [
     description: `Create & host beautiful banners for use anywhere`,
   },
   {
-    title: `Event App`,
-    image: `event.png`,
-    description: `A new, simple POC to planning events with friends`,
+    title: `Snippet`,
+    image: `snippet.png`,
+    description: `Collaboratively share code snippets, in seconds`,
   },
 ]
 
