@@ -8,14 +8,15 @@ const projects: ProjectProps[] = [
     link: `https://github.com/getlaunchpad/server`,
   },
   {
-    title: `Bannerkit`,
-    image: `bannerkit.png`,
-    description: `Create & host beautiful banners for use anywhere`,
+    title: `Tunedin`,
+    image: `tunedin.png`,
+    description: `Listen to spotify tracks with friends.`,
   },
   {
     title: `Snippet`,
     image: `snippet.png`,
     description: `Collaboratively share code snippets, in seconds`,
+    link: `https://github.com/lucas8/snippet`,
   },
 ]
 
