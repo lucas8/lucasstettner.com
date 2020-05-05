@@ -11,6 +11,7 @@ const projects: ProjectProps[] = [
     title: `Tunedin`,
     image: `tunedin.png`,
     description: `Listen to spotify tracks with friends.`,
+    link: `https://github.com/lucas8/tunedin`,
   },
   {
     title: `Snippet`,
