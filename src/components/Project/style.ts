@@ -17,6 +17,7 @@ export const ProjectImageContainer = styled.div`
 
 export const ProjectImage = styled.img<{ enlarged: boolean }>`
   object-fit: cover;
+  object-position: top;
   height: 100%;
   width: 100%;
   transition: all ease 250ms;
