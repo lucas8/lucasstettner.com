@@ -132,5 +132,5 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/osx,vim,node,windows,visualstudiocode
 
 ### Gatsby ###
-# public
+public
 .cache
