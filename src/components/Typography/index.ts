@@ -17,7 +17,6 @@ export const H2 = styled.h2`
 export const A = styled.a`
   font-size: 14px;
   color: #7069fa;
-  cursor: pointer;
   display: inline-block;
   transition: all ease 150ms;
   font-weight: 500;
@@ -36,7 +35,7 @@ export const P = styled.p`
   a {
     color: #8888fc;
     text-decoration: none;
-    cursor: pointer;
+    cursor: initial;
   }
   a:hover {
     text-decoration: none;

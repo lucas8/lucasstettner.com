@@ -2,10 +2,10 @@ import { ProjectProps } from "../components/Project"
 
 const projects: ProjectProps[] = [
   {
-    title: `Launchpad`,
-    image: `ecommerce.png`,
-    description: `Reinventing micro ecommerce on the web`,
-    link: `https://github.com/getlaunchpad/server`,
+    title: `Primer`,
+    image: `primer.png`,
+    description: `Building online homeschool communities.`,
+    link: `https://withprimer.com`,
   },
   {
     title: `Tunedin`,
@@ -16,7 +16,7 @@ const projects: ProjectProps[] = [
   {
     title: `Snippet`,
     image: `snippet.png`,
-    description: `Collaboratively share code snippets, in seconds`,
+    description: `Collaboratively share code snippets, in seconds.`,
     link: `https://github.com/lucas8/snippet`,
   },
 ]

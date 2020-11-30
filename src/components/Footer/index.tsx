@@ -6,13 +6,11 @@ export default () => (
     <FooterContent>
       <span>Lucas Stettner</span>
       <FooterNavigation>
+        <FooterItem href="#projects">Projects</FooterItem>
+        <FooterItem href="https://www.linkedin.com/in/lucas-stettner-5316231b2/">Linkedin</FooterItem>
         <FooterItem href="https://github.com/lucas8" target="_blank" rel="noopener">
           Github
         </FooterItem>
-        <FooterItem href="https://devpost.com/lucasthebear" target="_blank" rel="noopener">
-          Devpost
-        </FooterItem>
-        <FooterItem href="/resume.pdf">Resume</FooterItem>
       </FooterNavigation>
     </FooterContent>
   </FooterContainer>

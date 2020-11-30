@@ -28,8 +28,8 @@ export default () => (
     <HeroContainer>
       <Title>Lucas Stettner</Title>
       <P style={{ paddingTop: 24 }}>
-        I’m a <a>fullstack developer & designer</a>, <a>student</a>, and <a>skateboarder</a>, living in New York City.
-        I’m currently quarantining, and building <a>highly concurrent and scalable systems with elixir</a>.
+        I’m a <a>fullstack developer</a> and <a>high school student</a> living in Brooklyn. I’m currently working at
+        Primer building tools for homeschoolers.
       </P>
       <H2 style={{ marginTop: 128, marginBottom: 24 }} id="projects">
         Featured Projects

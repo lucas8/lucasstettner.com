@@ -26,13 +26,13 @@ export default () => {
   return (
     <HeaderContainer hasScrolled={!!scrollPos}>
       <HeaderContent>
-        <a href="/">
-          <H1>{`<Lucas />`}</H1>
+        <a href="#">
+          <H1>Lucas</H1>
         </a>
         <NavigationContent>
           <NavigationLinkContainer>
             <NavigationLink href="#projects">Projects</NavigationLink>
-            <NavigationLink href="/resume.pdf">Resume</NavigationLink>
+            <NavigationLink href="https://www.linkedin.com/in/lucas-stettner-5316231b2/">Linkedin</NavigationLink>
             <NavigationLink href="https://github.com/lucas8" target="_blank" rel="noopener">
               Github
             </NavigationLink>
